@@ -1,0 +1,11 @@
+git+https://github.com/openai/whisper.git
+requests
+moviepy
+openai
+flask
+gevent-websocket
+flask_sockets
+flask-cors
+numpy>=1.0,<2.0
+pybind11>=2.12
+pydub

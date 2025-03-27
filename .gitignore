@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/video-transcript-front/node_modules
+/video-transcript-front/.pnp
+/video-transcript-front.pnp.js
 
 # testing
-/coverage
+/video-transcript-front/coverage
 
 # production
-/build
+/video-transcript-front/build
 
 # misc
 .DS_Store
@@ -17,8 +17,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
-__pycachce__
-.venv
+/video-transcript-front/.idea
+/videoTranscribeServer/.idea
+/videoTranscribeServer/__pycachce__
+/videoTranscribeServer/.venv
 
 npm-debug.log*
 yarn-debug.log*

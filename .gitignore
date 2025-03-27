@@ -19,7 +19,7 @@
 .env.production.local
 /video-transcript-front/.idea
 /videoTranscribeServer/.idea
-/videoTranscribeServer/__pycachce__
+/videoTranscribeServer/__pycache__
 /videoTranscribeServer/.venv
 
 npm-debug.log*

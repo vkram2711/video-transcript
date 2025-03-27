@@ -1,0 +1,73 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.transcript-container {
+    margin-top: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #444;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.file-container {
+    border: 2px dashed #777;
+    border-radius: 5px;
+    padding: 40px 20px; /* Increased vertical size and padding */
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.file-container.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.file-container p {
+    margin: 5px 0; /* Adjusted padding */
+    color: #777;
+}
+
+.video-container {
+    margin-top: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.video-container.show {
+    opacity: 1; /* Show the video container when file is selected */
+}
